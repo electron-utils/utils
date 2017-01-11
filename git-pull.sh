@@ -13,7 +13,8 @@ do
 
     git pull
 
-    cd ${ORIGINAL_PATH}
     echo
+
+    cd ${ORIGINAL_PATH}
   fi
 done

@@ -15,9 +15,10 @@ do
       echo ------------------------------------------
 
       git commit -m "$1"
+
+      echo
     fi
 
     cd ${ORIGINAL_PATH}
-    echo
   fi
 done

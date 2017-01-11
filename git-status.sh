@@ -15,7 +15,8 @@ do
     # git status -s -b
     git status -s
 
-    cd ${ORIGINAL_PATH}
     echo
+
+    cd ${ORIGINAL_PATH}
   fi
 done

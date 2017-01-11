@@ -15,7 +15,8 @@ do
 
     updtr
 
-    cd ${ORIGINAL_PATH}
     echo
+
+    cd ${ORIGINAL_PATH}
   fi
 done

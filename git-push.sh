@@ -15,9 +15,10 @@ do
       echo ------------------------------------------
 
       git push $@
+
+      echo
     fi
 
     cd ${ORIGINAL_PATH}
-    echo
   fi
 done
