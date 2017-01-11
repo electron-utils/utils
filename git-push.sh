@@ -10,11 +10,11 @@ do
     echo ------------------------------------------
     echo '\033[0;35m'${name}'\033[0m'
     echo ------------------------------------------
+    echo
 
     # check if we have uncommit changes
     result=$(git cherry -v)
     if [ ! "${result}" == "" ]; then
-      echo pushing...
       git push $@
     fi
 

@@ -10,8 +10,7 @@ do
     echo ------------------------------------------
     echo '\033[0;35m'${name}'\033[0m'
     echo ------------------------------------------
-
-    echo commiting...
+    echo
 
     # check if we have unstaged, uncommit changes
     git add --all .
