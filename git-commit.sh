@@ -7,10 +7,7 @@ do
   if [ -d "${name}" ]; then
     cd ${name}
 
-    echo ------------------------------------------
-    echo '\033[0;35m'${name}'\033[0m'
-    echo ------------------------------------------
-    echo
+    echo '\033[0;35m'commiting ${name}'\033[0m'
 
     # check if we have unstaged, uncommit changes
     git add --all .
